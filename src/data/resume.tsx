@@ -11,7 +11,7 @@ export const DATA = {
     "Software Engineer specializing in backend development, AI solutions, and web development. Passionate about building efficient systems and solving complex problems.",
   summary:
     "Software Engineer with expertise in Python, C++, SQL, and modern web technologies. My focus is on developing reliable, scalable applications and data-driven solutions. I've worked on projects ranging from supply chain management to AI-driven data analysis.",
-  avatarUrl: "/me.jpg",
+  avatarUrl: "/portfolio-v2/me.jpg",
   skills: [
     "Python",
     "JavaScript (ES6+)",
