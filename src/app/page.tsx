@@ -1,10 +1,12 @@
 import { HackathonCard } from "@/components/hackathon-card";
+import { cn } from "@/lib/utils";
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
 import { ProjectCard } from "@/components/project-card";
 import { ResumeCard } from "@/components/resume-card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
+import { buttonVariants } from "@/components/ui/button";
 import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
@@ -216,6 +218,12 @@ export default function Page() {
                 </Link>{" "}
                 and I&apos;ll respond whenever I can.
               </p>
+              <Link
+                href={`mailto:${DATA.contact.email}`}
+                className={cn(buttonVariants({ variant: "default" }), "w-full sm:w-fit")}
+              >
+                Email Me
+              </Link>
             </div>
           </BlurFade>
         </div>

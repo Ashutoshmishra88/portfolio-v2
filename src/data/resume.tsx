@@ -4,14 +4,14 @@ import { HomeIcon, NotebookIcon, FileText, MailIcon } from "lucide-react";
 export const DATA = {
   name: "Ashutosh Mishra",
   initials: "AM",
-  url: "https://linkedin.com/in/ashutosh-misrha",
+  url: "https://ashutoshmishra88.github.io/portfolio-v2/",
   location: "India",
   locationLink: "https://www.google.com/maps/place/India",
   description:
     "Software Engineer specializing in backend development, AI solutions, and web development. Passionate about building efficient systems and solving complex problems.",
   summary:
     "Software Engineer with expertise in Python, C++, SQL, and modern web technologies. My focus is on developing reliable, scalable applications and data-driven solutions. I've worked on projects ranging from supply chain management to AI-driven data analysis.",
-  avatarUrl: "/me.png", // detailed in implementation plan to keep as placeholder for now
+  avatarUrl: "/me.jpg",
   skills: [
     "Python",
     "JavaScript (ES6+)",
@@ -29,8 +29,7 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/#projects", icon: NotebookIcon, label: "Projects" },
-    { href: "/#contact", icon: MailIcon, label: "Contact" }
+    { href: "/#projects", icon: NotebookIcon, label: "Projects" }
   ],
   contact: {
     email: "shivammishra6899@gmail.com",
