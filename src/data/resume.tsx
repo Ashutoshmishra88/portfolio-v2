@@ -184,6 +184,11 @@ export const DATA = {
           href: "https://github.com/Ashutoshmishra88", 
           icon: <Icons.github className="size-3" />,
         },
+        {
+          type: "Website",
+          href: " https://ashutoshmishra88.github.io/product-dashboard-backend/",
+          icon: <Icons.globe className="size-3" />,
+        },
       ],
       image: "",
       video: "",
